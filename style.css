@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.obj {
+  text-transform: uppercase;
+  letter-spacing: 0.3vw;
+  padding-top: 2vh;
+}
+.resume {
+  height: 100vh;
+  width: 100vw;
+  background-color: #cab9a8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-resume {
+  height: 95vh;
+  width: 50vw;
+  display: flex;
+  background-color: #ffffff;
+}
+.resume-left {
+  height: 95vh;
+  width: 20vw;
+  background-color: #dfc8af;
+}
+.resume-right {
+  height: 95vh;
+  width: 30vw;
+  background-color: #ffffff;
+}
+.image {
+  position: absolute;
+  height: 30vh;
+  width: 40vw;
+  background-color: #ffffff;
+  margin-top: 7vh;
+  margin-left: 10vw;
+  border-top-left-radius: 20vh;
+  border-bottom-left-radius: 20vh;
+  display: flex;
+  align-items: center;
+  padding-left: 0.5vw;
+  flex-direction: row;
+}
+.logo {
+  position: absolute;
+  padding-top: 2vw;
+  height: 28vh;
+  width: 13vw;
+  border-radius: 50%;
+  /* background-color: rgb(56, 165, 42); */
+  border: 0.4px solid black;
+  background-image: url(Aiza.png);
+  background-size: cover;
+}
+.head {
+  /* margin-bottom: 8vh; */
+  margin-left: 16vw;
+}
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 2.5vw;
+}
+h1 span {
+  font-family: "Merriweather", serif;
+  font-size: 2.3vw;
+}
+h3 {
+  font-family: "Merriweather", serif;
+  font-size: 1.3vw;
+}
+p {
+  padding-top: 1vh;
+  font-size: 2.3vh;
+}
+#contact {
+  margin-top: 40vh;
+  margin-left: 3vw;
+  text-transform: uppercase;
+  letter-spacing: 0.5vw;
+}
+#education {
+  margin-top: 40vh;
+  margin-left: 6vw;
+  text-transform: uppercase;
+  letter-spacing: 0.5vw;
+  font-size: 1.6vw;
+}
+.skill-1 {
+  height: 20vh;
+  width: 10vw;
+  /* background-color: aqua; */
+  padding-top: 1vw;
+}
+.skill-2 {
+  height: 20vh;
+  width: 10vw;
+  padding-top: 1vw;
+  /* background-color: rgb(60, 26, 212); */
+}
+.skills {
+  display: flex;
+}
+.edu-data {
+  padding-top: 10px;
+  margin-left: 6vw;
+}
+.edu-data-2 {
+  padding-top: 20px;
+  margin-left: 6vw;
+}
+.edu-data-3 {
+  padding-top: 20px;
+  margin-left: 6vw;
+}
+.edu-data-3 h4 {
+  font-size: 1.6vw;
+}
+.icons {
+  display: flex;
+  gap: 1vw;
+  flex-direction: column;
+  margin-left: 3vw;
+  display: flex;
+  padding-top: 2vw;
+}
+.location {
+  display: flex;
+  gap: 1vw;
+}
+.email {
+  display: flex;
+  gap: 1vw;
+}
+.phone {
+  display: flex;
+  gap: 1vw;
+}
+.icons i {
+  border: 1px solid rgb(80, 76, 76);
+  height: 6vh;
+  width: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
